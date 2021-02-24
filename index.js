@@ -20,7 +20,14 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, generateMarkdown(data), (err) =>
+        if (err) {
+            return console.log(err); 
+        }
+        console.log('Your file has been successfully written to README.md');
+        });
+}
 
 // TODO: Create a function to initialize app
 function init() {}
