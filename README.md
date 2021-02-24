@@ -1,2 +1,2 @@
-# ReadMeReadMe
-A README Generator written in Node.
+# none at all
+
