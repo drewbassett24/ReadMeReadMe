@@ -5,6 +5,17 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
+    'What is the title of your project?',
+    'What does your application do?',
+    'How do you install this application',
+    'How is this application intended to be used?',
+    'What license did you use?',
+    'Are there contribution guidelines for this application?',
+    'How do you test your application?',
+    'What is your GitHUb username?',
+    'What is the URL for your GitHub profile?',
+    'What is your email address?',
+    'Are there any contributors to this project?',
 
 ];
 
