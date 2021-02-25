@@ -39,52 +39,52 @@ function init() {
         },
         {
             type: 'input',
-            name: 'title',
+            name: 'purpose',
             message: questions[1], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'install',
             message: questions[2], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'intended use',
             message: questions[3], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'license',
             message: questions[4], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'contribution guidelines',
             message: questions[5], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'testing',
             message: questions[6], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'GitHUb username',
             message: questions[7], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'GitHub URL',
             message: questions[8], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'email',
             message: questions[9], 
          },
          {
             type: 'input',
-            name: 'title',
+            name: 'contributors',
             message: questions[10], 
          },
     ]).then((data) =>
