@@ -36,12 +36,64 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) {
+  if (license !== "Other") {
+    let licenseType = "## License\n\n" + renderLicenseBadge(license) + renderLicenseLink(license);
+    return licenseType;
+  }
+  else {
+    "";
+  }
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-Anything at all
+
+${renderLicenseSection(data.license)}
+
+## Description
+$(data.description)
+
+## Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributions](#Contributions)
+* [Testing](#Testing)
+* [Credits](#Credits)
+* [License] (#License)
+* [Questions] (#Questions?)
+
+## Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## Contributions
+
+${data.contributing}
+
+## Testing
+
+${data.test}
+
+## Credits
+
+${data.credits}
+
+## Questions?
+
+If you have any questions, you can contact me on the links below. Or if you just want to see my other projects!
+
+My GitHub username is ${data.github}
+
+Link to GitHub Profile: ${data.gitUrl}
+
+Email: ${data.email}
+
 `;
 }
 
