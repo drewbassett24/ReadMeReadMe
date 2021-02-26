@@ -49,17 +49,18 @@ function init() {
          },
          {
             type: 'input',
-            name: 'intended use',
+            name: 'intendedUse',
             message: questions[3], 
          },
          {
-            type: 'input',
+            type: 'list',
             name: 'license',
+            choices: ["Apache", "MIT"],
             message: questions[4], 
          },
          {
             type: 'input',
-            name: 'contribution guidelines',
+            name: 'contributionGuidelines',
             message: questions[5], 
          },
          {
@@ -69,12 +70,12 @@ function init() {
          },
          {
             type: 'input',
-            name: 'GitHUb username',
+            name: 'Username',
             message: questions[7], 
          },
          {
             type: 'input',
-            name: 'GitHub URL',
+            name: 'GitURL',
             message: questions[8], 
          },
          {
@@ -87,9 +88,10 @@ function init() {
             name: 'contributors',
             message: questions[10], 
          },
-    ]).then((data) =>
-    writeToFile("ReadMe.md", data)
-    )
+    ]).then((data) =>{
+      console.log(data);
+      writeToFile("ReadMe.md", data);
+     })
 }
 
 // Function call to initialize app
