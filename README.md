@@ -1,6 +1,8 @@
 # README, README
 README, README is intended to help a busy coder write a good ReadMe document quickly and easily by presenting a seriesd of questions about their app which, when answered, create a README document that will tell the reader all they need to know about the app. In comprises eleven questions and includes links to a choice of licenses and can produce a badge. 
 ## Screenshot
+## Installation
+You will need to run npm i inquirer and install the inquirer package dependencies. You can initiate the ReadMe generator by running node index.js in the command line. Prompts will then appear in the command line that will generate the ReadMe.
 ## Usage
 The app is intended to be used by coders who want to save time.
 ## Technology
