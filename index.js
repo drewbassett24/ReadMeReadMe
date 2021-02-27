@@ -13,9 +13,7 @@ const questions = [
     'Are there contribution guidelines for this application?',
     'How do you test your application?',
     'What is your GitHUb username?',
-    'What is the URL for your GitHub profile?',
     'What is your email address?',
-    'Are there any contributors to this project?',
 
 ];
 
@@ -49,18 +47,18 @@ function init() {
          },
          {
             type: 'input',
-            name: 'intendedUse',
+            name: 'usage',
             message: questions[3], 
          },
          {
             type: 'list',
             name: 'license',
-            choices: ["Apache", "MIT"],
+            choices: ["Apache 2.0 License", "MIT License", "GPLv3 License"],
             message: questions[4], 
          },
          {
             type: 'input',
-            name: 'contributionGuidelines',
+            name: 'contributing',
             message: questions[5], 
          },
          {
@@ -70,27 +68,18 @@ function init() {
          },
          {
             type: 'input',
-            name: 'Username',
+            name: 'username',
             message: questions[7], 
          },
          {
             type: 'input',
-            name: 'GitURL',
+            name: 'email',
             message: questions[8], 
          },
-         {
-            type: 'input',
-            name: 'email',
-            message: questions[9], 
-         },
-         {
-            type: 'input',
-            name: 'contributors',
-            message: questions[10], 
-         },
+         
     ]).then((data) =>{
       console.log(data);
-      writeToFile("ReadMe.md", data);
+      writeToFile("README.md", data);
      })
 }
 
