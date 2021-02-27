@@ -23,6 +23,7 @@ You can clone it to a local directory, from Github, or you could fork it. The yo
 ## Usage
 
 You invoke the app with node index.js, then answer a series of questions, which the app uses to generate a README document
+https://github.com/drewbassett24/ReadMeReadMe/blob/main/zoom_0.mp4
 
 ## Contributions
 
