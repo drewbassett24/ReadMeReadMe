@@ -27,8 +27,8 @@ You invoke the app with node index.js, then answer a series of questions, which 
   <source src="user-images.githubusercontent.com/73472116/109413848-7424cc00-79a7-11eb-80c1-5f8c2c34b2be.mp4" type="video/mp4">
 </video>
 
-
-https://user-images.githubusercontent.com/73472116/109413848-7424cc00-79a7-11eb-80c1-5f8c2c34b2be.mp4
+## Video Walkthrough
+Watch it in action ---> [here](https://user-images.githubusercontent.com/73472116/109413848-7424cc00-79a7-11eb-80c1-5f8c2c34b2be.mp4)
 
 ## Contributions
 
