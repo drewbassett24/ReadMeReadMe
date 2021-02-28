@@ -24,6 +24,9 @@ You can clone it to a local directory, from Github, or you could fork it. The yo
 
 You invoke the app with node index.js, then answer a series of questions, which the app uses to generate a README document
 
+## Video Walkthrough
+Watch it in action ---> [here](https://user-images.githubusercontent.com/73472116/109413848-7424cc00-79a7-11eb-80c1-5f8c2c34b2be.mp4)
+
 ## Contributions
 
 Not formal ones, but contact me using the details below if you're interested
